@@ -2,7 +2,7 @@ from PIL import Image
 
 def main():
 	while True:
-		pic_path = input('\n- Ubicación de la imagen: ')
+		pic_path = input('\n- Path to picture: ')
 		if pic_path == '':
 			break
 		image = Image.open(pic_path)
